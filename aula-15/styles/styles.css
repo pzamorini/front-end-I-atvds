@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+.bar-top{
+    background: #222222;
+    height: 1.5rem;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    align-items: center;
+    font-weight: 22.2rem;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.bar-mobile div{
+    display: none;
+}
+
+.bar-txt{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.bar-txt a{
+    margin-right:0.55rem;
+}
+.bar-bottom{
+    background: #F0A83E;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2rem;
+    font-style: bold;
+    margin-left: 2rem ;
+}
+.logo-front{
+    color: #3c2313; 
+}
+
+.logo-catedog{
+    color: #FFFFFF;
+}
+
+.txt-bar a{
+    margin-right: 1rem;
+    font-weight: 22.2rem;
+    font-size: 1rem;
+}
+
+.first-container{
+    display: flex;
+    background-image: url(/aula-12/img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 24rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.txt-headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headline{
+    text-align: center;
+    background: #FFFFFF;
+    width: 21rem;
+    padding: 0.5rem 0 0.5rem 0;
+    font-size: 1.8rem;
+    font-weight: 22;
+    margin-right: 2rem;
+}
+
+
+.subtitle-1{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 0.8rem 0;
+
+}
+
+.button-1{
+    height: 3rem;
+    width: 9rem;
+    border-radius: 0.3rem;
+    background: #F0A83E;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+}
+
+.second-container{
+    display: flex;
+}
+
+.first-subcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.img{
+    height: 4.5rem;
+    width: 4.2rem;
+}
+
+.h1-first-subcontainer{
+    font-size: 2.22rem;
+    font-weight: 700;
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+.links{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.row{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.cards{
+    text-align: center;
+    background: #FBFAF6;
+}
+
+.name{
+    font-weight: lighter;
+    margin-bottom: 0.5rem;
+}
+
+.preco{
+    font-size: 0.9rem;
+    text-align: center;
+    color: #F0A83E;
+    background: #FBFAF6;
+    margin-bottom: 0.5rem;
+}
+
+.formulario-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.formulario h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    background: #3C2313;
+    color: #FFFFFF;
+    height: 3rem;
+    width: 20rem;
+    padding-left: 1.1rem;
+    border-radius: 0.83rem;
+    margin: 0.55rem 0rem 0.55rem 0rem;
+    font-size: 0.8rem;
+    border: none;
+    
+}
+
+::placeholder{
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+
+.buttons{
+    margin-top: 2.5rem;
+}
+.clean{
+    background: #8A8787;
+    height: 2.1rem;
+    width: 6.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: #FFFFFF;
+}
+
+.send{
+    background: #F0A83E;
+    height: 2.1rem;
+    width: 6.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: #FFFFFF;
+}
+
+.footer-top{
+    height: 3.5rem;
+    background: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.6rem;
+}
+
+.novidades{
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 700;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 1.8rem;
+}
+
+.novidades span{
+    margin-left: 0.5rem;
+}
+
+.contato{
+    display: flex;
+    margin-right: 2.5rem;
+    align-items: center;
+}
+
+.contato input{
+    background: #FFFFFF;
+    color: #A0A0A0;
+    height: 2.8rem;
+    width: 18rem;
+    border-radius: 1rem;
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+    padding-left: 1rem;
+    border: none;
+}
+
+.placeholder-foot-top::placeholder{
+    color: #A0A0A0;
+}
+
+
+.contato button{
+    background: #3C2313;
+    height: 2.8rem;
+    width: 5rem;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    border: none;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 17rem;
+    background: #3C2313;
+}
+
+.icons-bottom{
+    display: flex;
+    margin-bottom: 1.7rem;
+    margin-left: 4.6rem;
+}
+
+
+.txt-bottom-icons{
+    margin-left: 1.6rem;
+    font-weight: 700;
+}
+
+.txt-bottom-icons h1{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+}
+
+.txt-bottom-icons h3{
+    color: #8A8787;
+    font-size: 10px;
+}
+
+.logo-bottom{
+    margin-right: 4.5rem;
+}
+
+.txt1-logo-bottom{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.txt2-logo-bottom{
+    color: #F0A83E;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.lil-foot{
+    background: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+
+}
+
+@media (max-width:460px){
+    .bar-top{
+        display: none;
+    }
+    
+    .bar-bottom {
+        display: none;
+    }
+
+    .bar-mobile{
+        display: flex;
+        width: 100vw;
+        background: #F0A83E;
+        height: 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bar-mobile div{
+        display:inline;
+    }
+
+    .menu-mobile{
+        display: inline-block;
+        margin-right: 1.5rem;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+        font-style: bold;
+        margin-left: 1.5rem ;
+    }
+
+    .first-container{
+        align-items: center;
+    }
+
+    .headline{
+        margin: 0 0 1.1rem 0;
+    }
+    .subtitle-1{
+        display: none;
+    }
+
+    .button-1{
+        margin-left: 11.2rem;
+    }
+
+    .h1-first-subcontainer{
+        font-size: 2rem;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        height: 7rem;
+    }
+    .contato{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 1rem 0;
+    }
+    
+    .footer-bottom{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .icons-bottom{
+        margin-left: 0;
+    }
+    .logo-bottom{
+        margin: 1rem 0 1rem 0;
+    }
+}
